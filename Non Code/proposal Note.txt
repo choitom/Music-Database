@@ -1,0 +1,76 @@
+1. go to website(TCP connection with the web server)
+2. type into the search bar(request)
+3. translates the request into HTTP -> sends HTTP request
+4. web server translates HTTP request into a database query(using SQL)
+	and sends the quety to its database server
+5. database server collects the query results and sends them back
+6. incorporates the results into an HTML page and sends that page back to the browser
+
+database - back end
+interface - front end
+
+allows users to query our data to answer questions of interest
+
+
+PROJECT PLAN
+1. A brief description of the data set
+	MUST INCLUDE...
+	a) links to the source of the data
+		- 	something that indicates that you are allowed to use the data 
+			for academic purposes
+	b) how you will acquire the data
+	
+		-> Description: an annual music critics' lists and ratings of all-time top 6000 songs.
+		-> Link :http://www.acclaimedmusic.net/
+		-> The Excel file of the song lists is posted on its main page and everyone can access the data
+		
+		
+2. A brief description of the intended audience for your application
+	CONSIDER...
+	a) who might be interested in this data?
+
+	b) what might they be interested in understanding about this data?
+	
+		-> Those who purely want to know which songs are rated the highest of all-time
+		-> Those who would like to see how ranking of a particular song has changed
+		for past 8 years
+		-> Those who would like to search how a particular artist is ranked in the list
+		-> Those who would like to search the ranking of a particular song
+		-> Those who would like to search the songs by year.
+		-> Scholars who need to find out the rankings of the songs of all time for their researches or projects,
+		but cannot afford look through the vast amount of data set line by line.
+
+		
+3. A list of key functioanl requirements of the system. (non-functional if applicable)
+	JUST GIVE
+	A) the highlights as to what the system must do and of whatever other parameters
+	are important(usability, etc)
+	
+		The system must...
+		-> let the user pick a year to see the ranking of 6000 songs of all time
+		between 2008 and 2015
+		-> let the user search by the year that a song was released
+		-> let the user search by an artist
+		-> let the user search by the title of a song
+		-> let the user select the range of ranking
+
+		-> display the ranking of the user's particular song
+		-> display the ranking of the songs of the user's particular artist
+		-> display the ranking list of 6000 songs of all time between 2008 and 2015
+		-> display the the list of the songs that were released in a particular year
+		
+		
+		
+4. A list of key features your system will include, based off the functional requirements
+		-> search bar for generic searching for an artist and a particular song
+		-> a button for the search
+		-> a table that displays the results by rank, song title, artist, and year released
+		-> drop down menus for range of a year and range of rank
+		-> possibly add youtube buttons for songs
+		-> possibly add wikipedia links for artists
+
+		
+5. Mockups of the user interface performing a few of its key tasks
+	a) what does the home page look like?
+	b) what does a query page look like?
+	c) what does a results page look like?
